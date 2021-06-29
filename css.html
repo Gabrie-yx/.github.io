@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="br"></html>
+<head>
+<title>Gravs</title>
+<link rel="url" href=Teste.com
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDya5Ay-FYQg4LB_Euwx-Gx2U1Js6hXo8E5XWLfXzh3KEtltuI2BtRFAlPH-AIk6sP4lU&usqp=CAU" type="image/x-icon">
+</head>
+<body>
+ <div id= "login-container">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDya5Ay-FYQg4LB_Euwx-Gx2U1Js6hXo8E5XWLfXzh3KEtltuI2BtRFAlPH-AIk6sP4lU&usqp=CAU" type="image/x-icon">
+     <h1>login</h1>
+     <form action="">
+         <label for="email">E-mail</label>
+         <input type="email"  minlength="4"
+         maxlength="40" size="40" required id="email" placeholder="coloque seu e-mail" autocomplete="off">
+         <label for="password">senha</label>
+         <input type="password"  minlength="4"
+         maxlength="12" size="12" required name="password" id="password" placeholder="Digite sua senha">
+         <a href="#" id="forgot-pass">esqueceu a senha?</a>
+         <input type="submit" value="Login">
+    <div id="register-container">
+     <p>ainda não tem uma conta?</p>
+     <a href="">Registrar</a>
+     </div>
+</body>
+</html>
+
+<style class="css">
+/* geral */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Helvetica;
+   color: black;
+   border: none;
+}
+
+body {
+    background-image:url(https://media.istockphoto.com/photos/emergency-vehicle-picture-id540210644?k=6&m=540210644&s=612x612&w=0&h=PmFPuvrtN6YwnNUJAsBFMnY9DKDWcLLZ68aizJuYoTo=) ;
+    background-size: cover;
+    /* background-position-y: -200px; */
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: blue;
+}
+
+/*login-container*/
+
+#login-container {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 2px solid #323232;
+    padding: 10px;
+    font-size: lrem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color: #08558B;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition: .5s;
+}
+
+</style>
